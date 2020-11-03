@@ -17,7 +17,7 @@ app.set('view engine', 'ejs');
 // middlewares
 app.use(morgan('dev'));
 app.use(myConnection(mysql, {
-  host: 'sql10.freemysqlhosting.net',
+  host: 'sql10.freemysqlhosting.net	',
   user: 'sql10374261',
   password: 'gsLrGivlnH',
   port: 3306,
