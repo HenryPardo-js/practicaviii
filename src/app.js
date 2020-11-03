@@ -18,7 +18,7 @@ app.set('view engine', 'ejs');
 app.use(morgan('dev'));
 app.use(myConnection(mysql, {
   host: 'sql10.freemysqlhosting.net',
-  user: 'sql10374261',
+  user: 'sql10374261@ec2-52-8-112-233.us-west-1.compute.amazonaws.com',
   password: 'gsLrGivlnH',
   port: 3306,
   database: 'sql10374261'
